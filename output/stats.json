@@ -1,0 +1,115 @@
+{
+  "files": [
+    {
+      "filename": "sample-banner.jpg",
+      "type": "image",
+      "originalSize": 31010,
+      "dimensions": "1200x630",
+      "outputs": [
+        {
+          "format": "webp",
+          "path": "output/webp/sample-banner.webp",
+          "relPath": "webp/sample-banner.webp",
+          "size": 12846
+        },
+        {
+          "format": "avif",
+          "path": "output/avif/sample-banner.avif",
+          "relPath": "avif/sample-banner.avif",
+          "size": 10966
+        },
+        {
+          "format": "jpg",
+          "path": "output/jpg/sample-banner.jpg",
+          "relPath": "jpg/sample-banner.jpg",
+          "size": 19850
+        },
+        {
+          "format": "png",
+          "path": "output/png/sample-banner.png",
+          "relPath": "png/sample-banner.png",
+          "size": 67387
+        }
+      ],
+      "bestSize": 10966,
+      "savingsPct": 65,
+      "updatedAt": "2026-09-17T12:22:13.091Z"
+    },
+    {
+      "filename": "sample-bookmark.svg",
+      "type": "icon",
+      "originalSize": 415,
+      "dimensions": "Vector SVG",
+      "outputs": [
+        {
+          "format": "svg",
+          "path": "output/icons/sample-bookmark.svg",
+          "relPath": "icons/sample-bookmark.svg",
+          "size": 260
+        }
+      ],
+      "bestSize": 260,
+      "savingsPct": 37,
+      "updatedAt": "2026-09-17T12:22:13.108Z"
+    },
+    {
+      "filename": "star-gold-badge.svg",
+      "type": "icon",
+      "originalSize": 298,
+      "dimensions": "Vector SVG",
+      "outputs": [
+        {
+          "format": "svg",
+          "path": "output/icons/star-gold-badge.svg",
+          "relPath": "icons/star-gold-badge.svg",
+          "size": 234
+        }
+      ],
+      "bestSize": 234,
+      "savingsPct": 21,
+      "updatedAt": "2026-09-17T12:22:13.112Z"
+    },
+    {
+      "filename": "sample-presentation.pdf",
+      "type": "pdf",
+      "originalSize": 49917,
+      "dimensions": "PDF Document",
+      "outputs": [
+        {
+          "format": "pdf",
+          "path": "output/pdf/sample-presentation.pdf",
+          "relPath": "pdf/sample-presentation.pdf",
+          "size": 43331
+        },
+        {
+          "format": "webp",
+          "path": "output/webp/sample-presentation.webp",
+          "size": 26040
+        },
+        {
+          "format": "jpg",
+          "path": "output/jpg/sample-presentation.jpg",
+          "size": 42403
+        },
+        {
+          "format": "png",
+          "path": "output/png/sample-presentation.png",
+          "size": 194940
+        },
+        {
+          "format": "avif",
+          "path": "output/avif/sample-presentation.avif",
+          "size": 19000
+        }
+      ],
+      "bestSize": 19000,
+      "savingsPct": 62,
+      "updatedAt": "2026-09-17T12:22:15.991Z"
+    }
+  ],
+  "summary": {
+    "totalOriginal": 81640,
+    "totalOptimized": 30460,
+    "totalSavings": 51180
+  }
+}

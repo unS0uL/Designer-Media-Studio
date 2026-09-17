@@ -1,0 +1,58 @@
+{
+  "name": "designer-media-studio",
+  "version": "1.4.0",
+  "description": "Interactive media compression & conversion studio for designers -- WebP/AVIF/MozJPEG/PNG image optimization, strict-format SVG/PNG icon processing, and PDF compression with page extraction. Live before/after comparison, per-format enable toggles, and EN/UA localization.",
+  "keywords": [
+    "image-optimization",
+    "image-compression",
+    "webp",
+    "avif",
+    "svgo",
+    "pdf-compression",
+    "sharp",
+    "vite",
+    "designer-tools"
+  ],
+  "author": "unS0uL",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unS0uL/Designer-Media-Studio.git"
+  },
+  "homepage": "https://github.com/unS0uL/Designer-Media-Studio#readme",
+  "bugs": {
+    "url": "https://github.com/unS0uL/Designer-Media-Studio/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "studio": "vite",
+    "build": "vite build",
+    "optimize": "tsx scripts/engine.ts",
+    "clean": "tsx scripts/clean.js",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx tests/test-transparency-and-engine.js && tsx tests/test-cross-platform-paths.js && tsx tests/test-browse-and-paste-svg.js && tsx tests/test-pdf-dpi.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "jszip": "^3.10.2",
+    "pdf-lib": "^1.17.1",
+    "picocolors": "^1.1.1",
+    "sharp": "^0.34.5",
+    "svgo": "^3.3.2",
+    "vite": "^7.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.20.3",
+    "eslint": "^10.10.0",
+    "globals": "^15.15.0",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.70.0"
+  }
+}

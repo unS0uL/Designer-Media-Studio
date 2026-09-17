@@ -1,0 +1,64 @@
+{
+  "name": "Web Standard (Recommended / Google web.dev)",
+  "description": "Optimal balance of visual fidelity and size for web and mobile devices",
+  "paths": {
+    "input": "input",
+    "output": "output"
+  },
+  "server": {
+    "port": 4040
+  },
+  "incoming": {
+    "maxDimension": 2560,
+    "autoOrient": true,
+    "convertToSrgb": true,
+    "pdfRenderDpi": 150
+  },
+  "outgoing": {
+    "enabledFormats": [
+      "webp",
+      "avif",
+      "jpg",
+      "png"
+    ],
+    "webp": {
+      "quality": 80,
+      "effort": 4,
+      "lossless": false
+    },
+    "avif": {
+      "quality": 75,
+      "effort": 4,
+      "chromaSubsampling": "4:2:0"
+    },
+    "jpg": {
+      "quality": 80,
+      "mozjpeg": true,
+      "progressive": true,
+      "trellisQuantisation": true,
+      "overshootDeringing": true,
+      "chromaSubsampling": "4:2:0"
+    },
+    "png": {
+      "quality": 80,
+      "palette": true,
+      "compressionLevel": 9,
+      "effort": 7
+    },
+    "icons": {
+      "svgo": {
+        "multipass": true,
+        "removeViewBox": false,
+        "cleanupIds": true,
+        "collapseGroups": true
+      },
+      "pngQuality": 90,
+      "pngPalette": true
+    },
+    "pdf": {
+      "screenDpi": 150,
+      "imageQuality": 80,
+      "useObjectStreams": true
+    }
+  }
+}
